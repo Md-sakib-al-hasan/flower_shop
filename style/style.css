@@ -16,7 +16,22 @@
    padding: 20px 43px;
    gap: 10px;
 }
+.primary-tittle{
+   color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin:178px 0px 24px 0px ;
 
+}
+.primary-info{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 48px;
+font-family: sans-serif;
+}
 /* header */
 
 .header-contenner{
@@ -46,4 +61,197 @@ margin-bottom: 32px;
    font-family: Lato;
    font-size: 20px;
    font-weight: 700;
+}
+
+
+/* start featured */
+
+.our_Featured{
+   margin:0px 350px ;
+}
+.total-flowr{
+   display: flex;
+   justify-content:space-around;
+   gap:24px;
+}
+.flower1{
+   
+   border-radius: 300px 300px 0px 0px;
+   text-align: center;
+   background: rgba(167, 33, 98, 0.15);
+   padding:110px 78px 0 78px;
+}
+.flower2{
+   
+   border-radius: 300px 300px 0px 0px;
+   text-align: center;
+   background: rgba(5, 151, 160, 0.15);
+   padding: 117px 47px 51px 47px;
+
+   
+}
+.flower3{
+   
+   border-radius: 300px 300px 0px 0px;
+   text-align: center;
+   background: rgba(71, 125, 17, 0.15);
+   padding:67px 75px 0px 75px ;
+}
+.skill{
+   display: flex;
+   justify-content: space-between;
+}
+.skill_text{
+   color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+/* start hot */
+.hot{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 215px;
+   border-radius: 8px;
+   background: rgba(229, 84, 115, 0.05)
+}
+.hot-left{
+padding: 230px 5px 0px 423px;
+text-align: center;
+}
+.hot_title{
+   color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.hot-off{
+   color: #E55473;
+font-size: 40px;
+font-weight: 800;
+}
+.hot-info{
+   color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom:52px ;
+}
+.hot-pic{
+   margin: 100px 400px 100px 2px;
+   width: 318px;
+height: 420px;
+}
+
+/* start instram */
+.inst-pic{
+   display: flex;
+   justify-content: space-around;
+   padding:0 400px;
+   gap:24px ;
+}
+.deals{
+   margin: 128px auto;
+   text-align: center;
+   position: relative;
+}
+.deals-info{
+   position:absolute;
+   top: 27%;
+   left: 27%;
+}
+.deals-title{
+   color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 16px;
+}
+.deals-discription{
+   color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 48px;
+}
+.deals-in{
+padding-left: 20px;
+border: 0px;
+outline: none;
+border-radius: 8px;
+background: #FFF;
+width: 700px;
+height: 64px;
+}
+.deal-sub{
+   width: 150px;
+height: 64px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+}
+.deal-sp{
+   width: 88px;
+height: 27.429px;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+}
+.footer{
+   text-align: center;
+   background: #111010;
+
+}
+.footer-itile{
+padding-top: 128px;
+color: #FFF;
+font-size: 48px;
+font-weight: 800;
+padding-bottom:24px;
+}
+.footer-text{
+color: #E55473;
+font-size: 48px;
+font-weight: 800;
+}
+.footer-info{
+   color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 32px;
+}
+.email{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 128px;
+}
+.shops{
+   margin-top: 128px;
+   text-align: center;
+}
+.shops-info{
+   width: 500px;
+   color: white;
+   font-size: 25px;
+   font-weight: 25px;
+   font-family: sans-serif;
+}
+.gfg{
+   margin-top:32px;
+   margin-bottom: 32px;
+   position: relative;
+}
+.shops-info{
+   position: absolute;
+   top:40%;
+   left:35%;
+}
+.gfg-pic{
+   width:50%;
+   height: 15%;
 }
