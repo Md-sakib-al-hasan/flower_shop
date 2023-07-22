@@ -1,0 +1,49 @@
+ /* shar able css */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    font-family: 'Lato', sans-serif;
+ }
+
+.btn_primary{
+   border-radius: 8px;
+   background: #E55473;
+   border: none;
+
+   display: inline-flex;
+   padding: 20px 43px;
+   gap: 10px;
+}
+
+/* header */
+
+.header-contenner{
+   background: rgba(229, 84, 115, 0.10);
+   display: flex;
+   justify-content: space-around;
+   padding: 50px 240px 0px 240px;
+}
+.header-left-rcontenne{
+   padding-top: 150px;
+}
+.header-title{
+color: #272727;
+font-size: 80px;
+font-weight: 800;
+margin-bottom:32px;
+}
+.header-info{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+font-family: sans-serif;
+margin-bottom: 32px;
+}
+.btn-text{
+   color: #FFF;
+   font-family: Lato;
+   font-size: 20px;
+   font-weight: 700;
+}
